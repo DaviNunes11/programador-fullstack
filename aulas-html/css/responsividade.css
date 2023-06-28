@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* comportamento para telas de até 576px de largura */
+@media screen and (max-width: 576px) {
+    #container {
+        width: 500px;
+        margin: auto;
+        background-color: cadetblue;
+    }
+
+    #cabecalho {
+        width: 100%;
+        height: 60px;
+        background-color: bisque;
+    }
+
+    #corpo {
+        width: 100%;
+        height: 300px;
+        background-color: green;
+    }
+
+    #rodape, #esquerda, #direita, #centro {
+        display: none;
+    }
+}
+
+/* comportamento para telas de mais de 576px de largura */
+@media screen and (min-width: 577px) {
+    #container {
+        width: 1024px;
+        background-color: aqua;
+        margin: auto;
+    }
+    
+    #cabecalho, #rodape {
+        height: 100px;
+        background-color: aquamarine;
+        width: 100%;
+    }
+    
+    #corpo {
+        height: 500px;
+        background-color: blueviolet;
+        width: 100%;
+    }
+    
+    #esquerda, #direita {
+        width: 20%;
+        height: 100%;
+        background-color: brown;
+        float: left;
+    }
+    
+    #direita {
+        background-color: crimson;
+    }
+    
+    #centro {
+        width: 60%;
+        height: 100%;
+        background-color: chartreuse;
+        float: left;
+    }   
+}
+

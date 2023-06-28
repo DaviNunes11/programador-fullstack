@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+#cabecalho {
+    background-color: aqua;
+    color: rebeccapurple;
+    text-align: center;
+    height: 150px;
+}
+
+#corpo {
+    background-color: darkcyan;
+    color: black;
+    height: 500px;
+}
+
+#rodape {
+    background-color: lightcoral;
+    color: blueviolet;
+    height: 150px;
+}
+
+#barra-lateral {
+    background-color: azure;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#conteudo {
+    background-color: beige;
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
